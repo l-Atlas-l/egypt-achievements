@@ -144,16 +144,11 @@ margin-bottom: 200px;
 
 
 .landing .container .landing-items .landing-text .landing-btn{
-  border-radius: 2px;
-    color: rgb(33, 150, 243);
-    outline-style: solid;
-    outline-color: rgb(33, 150, 243);
-    background-color: rgb(235, 229, 229);
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    border-inline-color: rgb(33, 150, 243);
-    margin: 0px;
+  width: 100px;
+  height: 25px;
+  border: 0px;
+  background: #2196f3;
+   border-radius: 5px;
 }
 
 @media (max-width: 767px){
