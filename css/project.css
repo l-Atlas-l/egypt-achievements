@@ -142,8 +142,18 @@ margin-bottom: 200px;
     color: #222;
 }
 
-.landing .container .landing-items .landing-text .landing-btn{
 
+.landing .container .landing-items .landing-text .landing-btn{
+  border-radius: 2px;
+    color: rgb(33, 150, 243);
+    outline-style: solid;
+    outline-color: rgb(33, 150, 243);
+    background-color: rgb(235, 229, 229);
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    border-inline-color: rgb(33, 150, 243);
+    margin: 0px;
 }
 
 @media (max-width: 767px){
@@ -160,6 +170,7 @@ margin-bottom: 200px;
         text-align: center;
     }
     .landing .container .landing-items .landing-pic img{
+      
         width: 100%;
     }
 }
@@ -258,4 +269,3 @@ margin-bottom: 200px;
         padding-top: 100%;
     }
 /* end quality sec */
-
