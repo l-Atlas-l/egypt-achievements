@@ -1,0 +1,136 @@
+/* start var */
+:root{
+    --main-color: #2196f3;
+    --main-bg-color: #f6f6f6;
+}
+/* end var */
+/* global rule */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "cairo", "sans serif";
+}
+
+.border-radius{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.grid{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 16px 12px;
+  padding: 100px 0 30px;
+}
+
+button{
+    font-family: "cairo", "sans serif";
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    width: 95%;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    width: 95%;
+  }
+}
+/* end rule */
+/* start nav */
+.nav {
+  padding: 15px 0;
+  background-color: #f6f6f6;
+  height: 58.4px;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .container .logo img {
+  width: 60px;
+}
+
+.nav .container .links .main-links {
+  margin: 0;
+}
+
+.nav .container .links .main-links li {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+
+.nav .container .links .main-links li:not(:last-child) {
+  margin: 0 15px 0 0;
+}
+
+.nav .container .links .main-links li a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 4px;
+}
+
+.nav .container .links .main-links li a:hover {
+  color: var(--main-color);
+}
+/* end nav */
+/* start footer */
+.footer{
+    height: 150px;
+    background-color: #002D62;
+}
+
+.footer .container .footer-logo img{
+    width: 200px;
+}
+/* end footer */

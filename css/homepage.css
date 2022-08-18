@@ -1,107 +1,3 @@
-/* global rule */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "cairo", "sans serif";
-}
-
-button{
-    font-family: "cairo", "sans serif";
-}
-
-.container {
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-@media (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .container {
-    width: 540px;
-  }
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .container {
-    width: 720px;
-  }
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .container {
-    width: 95%;
-  }
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .container {
-    width: 90%;
-  }
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-  .container {
-    width: 95%;
-  }
-}
-/* end rule */
-/* start nav */
-.nav {
-  padding: 15px 0;
-  background-color: #f6f6f6;
-  height: 58.4px;
-  width: 100%;
-  position: fixed;
-  z-index: 99999;
-  box-shadow: 0 1px rgba(0, 0, 0, 0.2);
-}
-
-.nav .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav .container .logo img {
-  width: 60px;
-}
-
-.nav .container .links .main-links {
-  margin: 0;
-}
-
-.nav .container .links .main-links li {
-  display: inline-block;
-  margin: 0;
-  position: relative;
-}
-
-.nav .container .links .main-links li:not(:last-child) {
-  margin: 0 15px 0 0;
-}
-
-.nav .container .links .main-links li a {
-  text-decoration: none;
-  color: black;
-  padding-bottom: 4px;
-}
-
-.nav .container .links .main-links li a:hover {
-  color: #2196f3;
-}
-/* end nav */
 /* start landing sec */
 .landing {
   height: fit-content;
@@ -137,7 +33,7 @@ button{
   padding: 0;
   margin: 0;
   font-weight: 400;
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 .landing .container .landing-items .landing-text p {
@@ -149,9 +45,13 @@ button{
   width: 100px;
   height: 25px;
   border: 0;
-  background: #2196f3;
+  text-decoration: none;
+  text-align: center;
+  padding: 3px;
+  color: black;
+  background: var(--main-color);
   border-radius: 5px;
-  box-shadow: 0 5px 0 #1664a4;
+  box-shadow: 0 5px 0 #002D62;
   transition: 0.2s;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -161,7 +61,7 @@ button{
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  margin: 0 auto;
+  cursor: pointer;
 }
 
 .landing .container .landing-items .landing-text .landing-btn:active{
@@ -231,7 +131,6 @@ button{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 16px 12px;
   padding: 100px 0 30px;
-  margin-bottom: 200px;
 }
 
 .qualities .container .quality-cards .quality-card {
@@ -246,7 +145,7 @@ button{
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  color: #2196f3;
+  color: var(--main-color);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -284,3 +183,54 @@ button{
   padding-top: 100%;
 }
 /* end quality sec */
+.qualities .container .landing-btn{
+  width: 100px;
+  height: 25px;
+  border: 0;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin: 10px auto;
+  text-decoration: none;
+  text-align: center;
+  padding: 3px;
+  color: black;
+  background: var(--main-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 0 #002D62;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.qualities .container .landing-btn:active{
+  box-shadow: none;
+  transform: translateY(5px) translateX(-50%);
+  -webkit-transform: translateY(5px) translateX(-50%);
+  -moz-transform: translateY(5px) translateX(-50%);
+  -ms-transform: translateY(5px) translateX(-50%);
+  -o-transform: translateY(5px) translateX(-50%);
+}
+
+/* start footer */
+.footer{
+    height: 150px;
+    background-color: #002D62;
+}
+
+.footer .container .footer-logo img{
+    width: 200px;
+}
+/* end footer */
