@@ -1,3 +1,5 @@
+
+
 /* start var */
 :root{
     --main-color: #2196f3;
@@ -39,7 +41,7 @@ button{
 
 @media (max-width: 576px) {
   .container {
-    width: 100%;
+    width: 95%;
     padding: 0;
   }
 }
@@ -97,7 +99,7 @@ button{
 }
 
 .nav .container .logo img {
-  width: 60px;
+  width: 40px;
 }
 
 .nav .container .links .main-links {
@@ -131,6 +133,6 @@ button{
 }
 
 .footer .container .footer-logo img{
-    width: 200px;
+    width:140px;
 }
 /* end footer */
