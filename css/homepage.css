@@ -223,7 +223,43 @@
   -ms-transform: translateY(5px) translateX(-50%);
   -o-transform: translateY(5px) translateX(-50%);
 }
-
+#up{
+   width: 100px;
+  height: 25px;
+  border: 0;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin: 10px auto;
+  text-decoration: none;
+  text-align: center;
+  padding: 3px;
+  color: black;
+  background: var(--main-color);
+  border-radius: 5px;
+  box-shadow: 0 5px 0 #002D62;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+#up:active{ box-shadow: none;
+  transform: translateY(5px) translateX(-50%);
+  -webkit-transform: translateY(5px) translateX(-50%);
+  -moz-transform: translateY(5px) translateX(-50%);
+  -ms-transform: translateY(5px) translateX(-50%);
+  -o-transform: translateY(5px) translateX(-50%);}
 /* start footer */
 .footer{
     height: 150px;
