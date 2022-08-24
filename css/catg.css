@@ -1,0 +1,92 @@
+.catagories{
+    position: absolute;
+    background-image: url("../photos/catg-photos/blue-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    top: 58.4px;
+    height: calc(100% - 58.4px);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 1046px){
+    .catagories{
+        height: fit-content;
+    }
+}
+
+.catagories .container .catagories-cards{
+    direction: rtl;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px !important;
+}
+
+@media (max-width: 360px){
+    .catagories-cards{
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+    }
+    .catagories-card{
+        min-height: 330px !important;
+    }
+}
+
+.catagories .container .catagories-cards .catagories-card{
+    width: 100%;
+    position: relative;
+    min-height: 400px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.catagories .container .catagories-cards .catagories-card i{
+    position: relative;
+}
+
+.catagories .container .catagories-cards .catagories-card .catagories-card-text{
+    position: relative;
+    padding: 20px;
+}
+
+.catagories .container .catagories-cards .catagories-card .catagories-card-text h1{
+    color: var(--main-color);
+    padding: 0;
+    margin: 0;
+}
+
+.catagories .container .catagories-cards .catagories-card .catagories-card-text{
+    font-weight: 500;
+}
+
+.catagories .container .catagories-cards .catagories-card .catagories-card-text ul{
+    padding: 0;
+}
+
+.catagories .container .catagories-cards .catagories-card .catagories-card-text ul li{
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+a{
+    width: 80%;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    padding: 5px;
+    position: relative;
+}

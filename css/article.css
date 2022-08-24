@@ -1,0 +1,33 @@
+/* start main page */
+
+.page{
+    position: relative;
+    top: 58.4px;
+    width: 100vw;
+    height: calc(100vh - 58.4px);
+    background-color: rebeccapurple;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+}
+
+/* end main page */
+/* start sidebar */
+
+.sidebar{
+    background-color: rgb(242, 242, 242);
+    height: 100%;
+
+}
+.sidebar aside{
+    position: fixed;
+    background-color: gray;
+}
+
+
+/* end sidebar */
+
+.article-page{
+background-color: red;
+word-break: break-all;
+position: relative;
+}
