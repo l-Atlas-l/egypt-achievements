@@ -3,14 +3,37 @@
 /* start var */
 :root{
     --main-color: #2196f3;
-    --main-dark: #002D62;
+    --main-dark: #145b94;
     --main-bg-color: #f6f6f6;
 }
 /* end var */
 /* global rule */
 * {
   box-sizing: border-box;
+  
 }
+
+*::-webkit-scrollbar {
+  width: 5px;
+  margin-right: -5px;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
 
 i{
   color: var(--main-color)
@@ -45,7 +68,12 @@ body {
   padding: 100px 0 30px;
 }
 
+@media (min-width: 1200px){
+  .grid{
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 
+  }
+}
 
 @media (max-width: 400px){
   .grid{
@@ -91,6 +119,11 @@ button{
 }
 .container {
   padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-art{
+  width: 100%;
   margin: 0 auto;
 }
 

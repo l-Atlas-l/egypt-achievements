@@ -13,9 +13,16 @@
     right: 0;
 }
 
+
 @media (max-width: 1046px){
     .catagories{
         height: fit-content;
+    }
+}
+
+@media (min-width: 768.1px) and (min-height: 856px){
+    .catagories{
+        height: calc(100% - 58px);
     }
 }
 
