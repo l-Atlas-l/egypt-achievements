@@ -1,0 +1,11 @@
+.about{
+    top: 58.4px;
+    height: calc(100vh - 58.4px);
+    width: 100vw;
+    position: absolute;
+}
+.about .container .about-header{
+    color: var(--main-color);
+    width: fit-content;
+    margin: 0 auto;
+}

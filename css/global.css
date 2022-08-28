@@ -188,17 +188,19 @@ button{
 
 .nav .container .logo{
   position: relative;
-  width: 50px;
-  height: 20px;
+  width: 30px;
+  height: 20.11px;
 }
 
 .nav .container .logo img {
-  width: 50px;
+  width: 30px;
   position: absolute;
 }
 
 .nav .container .links .main-links {
   margin: 0;
+  direction: rtl;
+  padding: 0;
 }
 
 .nav .container .links .main-links li {
@@ -207,12 +209,12 @@ button{
   position: relative;
 }
 
-.nav .container .links .main-links li:not(:last-child) {
-  margin: 0 15px 0 0;
+.nav .container .links .main-links li:not(:first-child) {
+  margin: 0 15px 0 0  ;
 }
 
 @media (max-width: 567px){
-  .nav .container .links .main-links li:not(:last-child) {
+  .nav .container .links .main-links li:not(:first-child) {
     margin: 0 5px 0 0;
   }
 }
@@ -220,12 +222,13 @@ button{
 .nav .container .links .main-links li a {
   text-decoration: none;
   color: black;
-  padding-bottom: 4px;
 }
 
 .nav .container .links .main-links li a:hover {
   color: var(--main-color);
 }
+
+
 /* end nav */
 /* start footer */
 .footer{
