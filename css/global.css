@@ -224,6 +224,12 @@ button{
   color: black;
 }
 
+@media (min-width: 1200px){
+  .nav .container .links .main-links li a{
+    font-size: 30px;
+  }
+}
+
 .nav .container .links .main-links li a:hover {
   color: var(--main-color);
 }

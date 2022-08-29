@@ -64,6 +64,7 @@
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
+    height: 100%;
 }
   
 .projects .container .project-cards .project-card .project-card-img img:hover{

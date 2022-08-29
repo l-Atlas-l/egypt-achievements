@@ -98,19 +98,14 @@ body{
   }
 }
 
-@media (orintation: portrait) {
-  .landing {
-    height: calc(50vs - 58.4px);
-  }
-}
 /* end landing sec */
 .shape {
   width: 100%;
-  height: 90px;
+  height: 150px;
   background-color: #f6f6f6;
   position: absolute;
   transform: rotate(-3deg) skewx(-3deg);
-  margin-top: -50px;
+  margin-top: -60px;
 }
 /* start quality sec */
 .qualities {
