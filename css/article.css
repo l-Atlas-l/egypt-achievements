@@ -177,10 +177,12 @@
 
 .article-page .container-art .info-section .info-cards .info-card .info-card-header h1{
     font-weight: 400;
+    text-align: center;
 }
 
 .article-page .container-art .info-section .info-cards .info-card .info-card-text h2{
     font-weight: 300;
+    text-align: center;
 }
 
 @media (max-width: 355px){
@@ -188,7 +190,7 @@
     font-size: 20px;
     }
 .article-page .container-art .info-section .info-cards .info-card .info-card-text h2{
-    font-size: 17px;
+    font-size: 15px;
     }
 }
 
