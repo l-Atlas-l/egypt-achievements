@@ -9,3 +9,12 @@
     width: fit-content;
     margin: 0 auto;
 }
+
+.about .container .about-text{
+    word-spacing: 5px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+}
