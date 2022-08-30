@@ -165,13 +165,6 @@
     }
 }
 
-@media (max-width: 350px) {
-    .article-page .container-art .info-section .info-cards .info-card{
-        width: 50vw;
-        height: 50vw;
-    }
-}
-
 .article-page .container-art .info-section .info-cards .info-card .info-card-header{
     color: var(--main-color);
 }
