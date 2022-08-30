@@ -145,6 +145,7 @@
     height: 35vw;
     width: 35vw;
     border-radius: 6px;
+    padding: 5px;
     margin: 0 auto;
     position: relative;
     display: flex;
